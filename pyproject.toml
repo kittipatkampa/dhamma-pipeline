@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dhamma-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "dhamma_pipeline"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.23.1"
+openai = "^0.27.8"
+langchain = "^0.0.213"
+pinecone-client = "^2.2.2"
+python-dotenv = "^1.0.0"
+tqdm = "^4.65.0"
+pandas = "^2.0.2"
+psycopg2-binary = "^2.9.6"
+PyYAML = "^6.0"
+jupyterlab = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
